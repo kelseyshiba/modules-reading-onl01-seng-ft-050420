@@ -2,7 +2,7 @@ require_relative './dance_module.rb'
 require_relative './class_methods_module.rb'
 
 class Kid 
- extend FanceDance::ClassMethods 
+ extend FancyDance::ClassMethods 
  include
- FanceDance::InstanceMethods
+ FancyDance::InstanceMethods
 end
